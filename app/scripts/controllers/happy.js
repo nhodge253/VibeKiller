@@ -7,7 +7,7 @@
  * # HappyCtrl
  * Controller of the vibeKillerApp
  */
-angular.module('vibeKillerApp')
+angular.module('VibeKiller')
   .controller('HappyCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
