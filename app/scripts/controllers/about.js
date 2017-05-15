@@ -7,7 +7,7 @@
  * # AboutCtrl
  * Controller of the vibeKillerApp
  */
-angular.module('VibeKiller')
+angular.module('vibeKillerApp')
   .controller('AboutCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',

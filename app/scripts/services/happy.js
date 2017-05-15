@@ -2,22 +2,24 @@
 
 /**
  * @ngdoc service
- * @name vibeKillerApp.happy
+ * @name VibeKiller.happy
  * @description
  * # happy
- * Factory in the vibeKillerApp.
+ * Factory in the VibeKiller.
  */
-angular.module('vibeKillerApp')
-  .factory('happy', function () {
-    // Service logic
-    // ...
+ angular.module('vibeKillerApp')
+   .factory('happy', function ($resource) {
+     // Service logic
+     // ...
 
-    var meaningOfLife = 42;
-
-    // Public API here
-    return {
-      someMethod: function () {
-        return meaningOfLife;
-      }
-    };
-  });
+     // Public API here
+     return $resource('http://api.openweathermap.org/data/2.5/weather?q=:location&units=imperial&APPID=YOUR_API_KEY_HERE', {}, {
+       query: {
+         method:'GET',
+         params:{
+           location: 'Seattle,us'
+         },
+         isArray:false
+       }
+     });
+   });

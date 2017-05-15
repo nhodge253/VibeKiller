@@ -9,7 +9,7 @@
  * Main module of the application.
  */
 angular
-  .module('VibeKiller', [
+  .module('vibeKillerApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',

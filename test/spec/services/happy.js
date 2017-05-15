@@ -3,7 +3,7 @@
 describe('Service: happy', function () {
 
   // load the service's module
-  beforeEach(module('VibeKiller'));
+  beforeEach(module('vibeKillerApp'));
 
   // instantiate service
   var happy;

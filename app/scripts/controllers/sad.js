@@ -7,7 +7,7 @@
  * # SadCtrl
  * Controller of the vibeKillerApp
  */
-angular.module('VibeKiller')
+angular.module('vibeKillerApp')
   .controller('SadCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
