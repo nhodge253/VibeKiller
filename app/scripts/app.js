@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name vibeKillerApp
+ * @name VibeKiller
  * @description
- * # vibeKillerApp
+ * # VibeKiller
  *
  * Main module of the application.
  */
 angular
-  .module('vibeKillerApp', [
+  .module('VibeKiller', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
