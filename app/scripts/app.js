@@ -2,7 +2,7 @@
 
 /**
  * @ngdoc overview
- * @name VibeKiller
+ * @name vibeKillerApp
  * @description
  * # VibeKiller
  *

@@ -1,5 +1,5 @@
 body {
-  color:green;
+  color:$brand-primary;
 }
 
 .marketing {
@@ -19,6 +19,7 @@ body {
 
 body {
   padding: 0;
+  text-align: center;
 }
 
 body {background-color: $body-bg;}
@@ -34,7 +35,7 @@ body {background-color: $body-bg;}
 
 /* Custom page header */
 .header {
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: none;
   margin-bottom: 10px;
 
   /* Make the masthead heading the same height as the navigation */
@@ -44,6 +45,25 @@ body {background-color: $body-bg;}
     line-height: 40px;
     padding-bottom: 19px;
   }
+}
+.navbar {
+  border: none;
+  background-color: $brand-primary;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:focus,  {
+  color: white;
+  }
+ul.nav.navbar-nav li a  {
+  color:white;
+}
+ul.nav.navbar-nav li.active a {
+  color:white;
+  background-color: rgb(201, 85, 109);
+}
+
+.vibes h2 {
+  text-align:center;
 }
 
 /* Custom page footer */
@@ -61,12 +81,15 @@ body {background-color: $body-bg;}
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
+  background-color: white;
 
-  .btn {
+    .btn {
     font-size: 21px;
     padding: 14px 24px;
   }
 }
+
+
 
 /* Supporting marketing content */
 .marketing {
