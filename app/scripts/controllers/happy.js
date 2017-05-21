@@ -7,6 +7,12 @@
  * # HappyCtrl
  * Controller of the vibeKillerApp
  */
+
+
+function init() {
+    window.initGapi(); // Calls the init function defined on the window
+}
+
 angular.module('vibeKillerApp')
   .controller('HappyCtrl', function () {
     this.awesomeThings = [

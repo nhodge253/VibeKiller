@@ -8,10 +8,6 @@
  * Controller of the vibeKillerApp
  */
 angular.module('vibeKillerApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+.controller('MainCtrl', function ($scope, happy) {
+   $scope.happy = happy.query();
+ });
