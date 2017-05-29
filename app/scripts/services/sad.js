@@ -8,16 +8,14 @@
  * Factory in the vibeKillerApp.
  */
 angular.module('vibeKillerApp')
-  .factory('sad', function () {
-    // Service logic
-    // ...
+.factory('sad', function ($resource) {
+  // Service logic
+  // ...
 
-    var meaningOfLife = 42;
-
-    // Public API here
-    return {
-      someMethod: function () {
-        return meaningOfLife;
-      }
-    };
+  // Public API here
+  return $resource('https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=PLq2uamLnrhl6RYw3jIqyO2Kawqci0AmeS&key=AIzaSyDOKHMiU66J5zLNcRT-mVH3THUCl009tLI', {}, {
+    query: {
+      method:'GET'
+    }
   });
+});
