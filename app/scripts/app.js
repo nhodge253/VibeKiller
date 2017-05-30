@@ -49,6 +49,21 @@ angular
         controller: 'FestiveCtrl',
         controllerAs: 'festive'
       })
+      .when('/about', {
+        templateUrl: 'views/about.html',
+        controller: 'AboutCtrl',
+        controllerAs: 'about'
+      })
+      .when('/festive', {
+        templateUrl: 'views/festive.html',
+        controller: 'FestiveCtrl',
+        controllerAs: 'festive'
+      })
+      .when('/angry', {
+        templateUrl: 'views/angry.html',
+        controller: 'AngryCtrl',
+        controllerAs: 'angry'
+      })
       .otherwise({
         redirectTo: '/'
       });
