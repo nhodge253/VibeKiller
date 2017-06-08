@@ -42,8 +42,15 @@
 
             <ul class="nav navbar-nav">
               <li class="active"><a href="#/">Home</a></li>
-              <li><a ng-href="#/about">About</a></li>
-              <li><a ng-href="#/">Contact</a></li>
+              <li><a ng-href="#!/about">About</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="mailto:nhodge253@gmail.com">email nhodge253@gmail.com</a></li>
+                  <li><a href="https://twitter.com/nhodge253">Twitter</a></li>
+                  <li><a href="https://github.com/nhodge253">GitHub</a></li>
+
+                </ul>
             </ul>
           </div>
         </div>
@@ -99,6 +106,7 @@
         <script src="scripts/controllers/festive.js"></script>
         <script src="scripts/services/angry.js"></script>
         <script src="scripts/services/festive.js"></script>
+        <script src="scripts/services/about.js"></script>
         <!-- endbuild -->
 </body>
 </html>
