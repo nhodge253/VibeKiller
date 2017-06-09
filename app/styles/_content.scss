@@ -68,8 +68,24 @@ li.dropdown.open ul.dropdown-menu li a{
   color:$brand-primary;
 }
 
+.img-responsive {
+    -moz-transition: all .35s ease-in;
+    -o-transition: all .35s ease-in;
+    -webkit-transition: all .35s ease-in;
+    transition: all .35s ease-in;
+    background: #f5f5f5;
+    padding: 20px;
+}
+
+.img-responsive:hover {
+    background: rgb(180, 29, 60);
+}
 .vibes h2 {
   text-align:center;
+}
+
+.about p.breakdown {
+  margin-bottom: 15px;
 }
 
 .about p {
@@ -89,12 +105,15 @@ p.Ariel img{
   padding: 5px;
 }
 p.Ariel {
-  margin-top:150px;
+  margin-top:25px;
 }
 img.img-responsive {
   background-color: $brand-primary;
 }
 
+img.vibeKiller{
+  
+}
 /* Custom page footer */
 .footer {
   padding-top: 19px;
