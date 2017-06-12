@@ -170,11 +170,9 @@ img.img-responsive {
   .jumbotron {
     border-bottom: 0;
   }
-   div.vKTalks.ng-scope img.vKSpeaks {
-    float:left;
-    border: solid 10px;
+  
+.vKTalks h3 {
+    float: right;
+    font-size: 2em;
   }
-.vKTalks p {
-    color: orange;
-    float= right;
-  }
+}
