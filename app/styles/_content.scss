@@ -111,9 +111,7 @@ img.img-responsive {
   background-color: $brand-primary;
 }
 
-img.vibeKiller{
-  
-}
+
 /* Custom page footer */
 .footer {
   padding-top: 19px;
@@ -172,4 +170,11 @@ img.vibeKiller{
   .jumbotron {
     border-bottom: 0;
   }
-}
+   div.vKTalks.ng-scope img.vKSpeaks {
+    float:left;
+    border: solid 10px;
+  }
+.vKTalks p {
+    color: orange;
+    float= right;
+  }
